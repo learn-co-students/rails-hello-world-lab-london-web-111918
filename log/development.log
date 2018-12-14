@@ -8,3 +8,16 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-12-13 22:22:52 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 36ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-12-13 22:24:40 +0000
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'hello_world'` to `controller: 'hello_world'`. (called from block in <top (required)> at /Users/flatironschool/Development/code/mod-2/rails/rails-hello-world-lab-london-web-111918/config/routes.rb:2)
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
